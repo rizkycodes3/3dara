@@ -2,7 +2,7 @@ import { Bio } from "../data";
 
 const About = () => {
   return (
-    <section className="flex flex-col gap-2 bg-surface-low py-10 lg:flex-row lg:px-15 lg:gap-8">
+    <section className="flex flex-col gap-2 bg-surface-low py-10 lg:flex-row lg:px-15 lg:gap-8 lg:pb-20">
       <img src={Bio} alt="bio" className="w-2/3 mx-auto rounded-t-full shadow-[-20px_20px_0_0] shadow-surface-bright" />
       <div className="mt-8 px-5 flex flex-col gap-5 sm:mt-20 lg:w-3/4">
         <p className="text-secondary font-playfair">Kisah Kami</p>

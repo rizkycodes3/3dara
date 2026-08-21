@@ -5,7 +5,7 @@ const Hero = () => {
     <main
       style={{
         "--image-lg": `url(${HeroImage})`,
-        "--image-sm": `url(${Catalog.LemangPutih})`,
+        "--image-sm": `url(${Catalog[0].image})`,
       }}
       className="relative h-[calc(100vh-3rem)] w-screen bg-(image:--image-sm) bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center px-4 py-16 after:absolute after:inset-0 after:bg-linear-to-b after:from-transparent after:via-surface-bright/70 after:to-surface-dim
       lg:bg-(image:--image-lg) lg:after:bg-linear-to-l lg:items-start"
