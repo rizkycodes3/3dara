@@ -69,8 +69,8 @@ export const Sosmed = [
   },
   {
     id: 4,
-    name: "whatsapp",
-    href: "https://wa.me/6281234567890",
-    icon: "ri-whatsapp-line",
+    name: "Maps",
+    href: "https://maps.app.goo.gl/tdTgRVQNKyedu3fg6",
+    icon: "fa-solid fa-map-location-dot",
   },
 ];
