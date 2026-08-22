@@ -23,3 +23,27 @@ export const Catalog = [
     desc: "Perpaduan sempurna antara beras ketan pulen yang gurih dan isian kelapa gula merah murni yang manis dan kaya rasa. Dibalut rapi dengan daun pisang alami dan dikukus hingga aromanya meresap sempurna, setiap gigitan menghadirkan tekstur yang kenyal, lembut, dan cita rasa manis-gurih yang khas.",
   },
 ];
+
+import Halal from "./assets/logo-halal.png";
+import CookBook from "./assets/cook-book.png";
+import BPA from "./assets/BPA-free.png";
+export const USPitems = [
+  {
+    id: 1,
+    title: "100% Halal untuk Ketenangan Anda",
+    image: Halal,
+    desc: "Kami memastikan seluruh produk diolah sesuai standar kehalalan yang ketat, mulai dari pemilihan bahan baku, proses produksi, hingga pengiriman ke lokasi anda. Dengan sertifikasi resmi Halal Indonesia, Anda dapat menikmati setiap sajian tradisional kami dengan rasa aman, nyaman, dan penuh ketenangan.",
+  },
+  {
+    id: 2,
+    title: "Warisan Cita Rasa yang Teruji Zaman",
+    image: CookBook,
+    desc: "Setiap hidangan kami diolah menggunakan catatan resep rahasia yang diwariskan secara turun-temurun. Kami mempertahankan takaran rempah asli, teknik pengolahan tradisional, dan ketulusan cara masak lama agar Anda dapat menikmati kelezatan yang konsisten, autentik, dan membawa kenangan hangat masakan keluarga.",
+  },
+  {
+    id: 3,
+    title: "Aman untuk Kesehatan Keluarga Anda",
+    image: BPA,
+    desc: "Kami peduli pada kesehatan Anda sebagaimana kami peduli pada cita rasa. Seluruh kemasan yang kami gunakan terjamin BPA Free (bebas dari zat kimia Bisphenol A), sehingga makanan tetap higienis, tidak beracun, dan terhindar dari kontaminasi zat berbahaya meskipun disajikan dalam keadaan hangat.",
+  },
+];
