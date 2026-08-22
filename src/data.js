@@ -47,3 +47,30 @@ export const USPitems = [
     desc: "Kami peduli pada kesehatan Anda sebagaimana kami peduli pada cita rasa. Seluruh kemasan yang kami gunakan terjamin BPA Free (bebas dari zat kimia Bisphenol A), sehingga makanan tetap higienis, tidak beracun, dan terhindar dari kontaminasi zat berbahaya meskipun disajikan dalam keadaan hangat.",
   },
 ];
+
+export const Sosmed = [
+  {
+    id: 1,
+    name: "Gmail",
+    href: "mailto:jefriadimudo120@gmail.com?subject=Pemesanan%20Menu&body=Halo,%20saya%20ingin%20memesan...",
+    icon: "ri-mail-line",
+  },
+  {
+    id: 2,
+    name: "Facebook",
+    href: "https://www.facebook.com/profile.php?id=61593068231483",
+    icon: "ri-facebook-circle-line",
+  },
+  {
+    id: 3,
+    name: "Instagram",
+    href: "https://www.instagram.com/3dara_magek/",
+    icon: "ri-instagram-line",
+  },
+  {
+    id: 4,
+    name: "whatsapp",
+    href: "https://wa.me/6281234567890",
+    icon: "ri-whatsapp-line",
+  },
+];

@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Menu from "./components/Menu";
 import USP from "./components/USP";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <About />
       <Menu />
       <USP />
+      <Footer />
     </div>
   );
 };
