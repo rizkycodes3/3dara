@@ -4,6 +4,7 @@ import About from "./components/About";
 import Menu from "./components/Menu";
 import USP from "./components/USP";
 import Footer from "./components/Footer";
+import Whatsapp from "./components/Whatsapp";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Menu />
       <USP />
       <Footer />
+      <Whatsapp />
     </div>
   );
 };
