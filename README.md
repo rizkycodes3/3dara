@@ -1,16 +1,24 @@
-# React + Vite
+# 🍙 3Dara - Landing Page Website Kuliner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Selamat datang di repositori **3Dara**, website _landing page_ modern, responsif, dan interaktif yang dirancang khusus untuk mempromosikan dan menjual produk kuliner tradisional **Lemang Premium**.
 
-Currently, two official plugins are available:
+Website ini dibuat untuk memberikan pengalaman pengguna (_user experience_) yang lezat dan mulus, mulai dari pengenalan varian produk, keunggulan produk, hingga pemesanan langsung melalui WhatsApp.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌟 Fitur Utama
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Hero Section Interaktif:** Tampilan visual produk yang menggugah selera.
+- **Katalog Product:** Menampilkan berbagai varian lemang lengkap dengan deskripsi dan harga.
+- **Keunggulan Produk (_Value Proposition_):** Memuat informasi penting seperti 100% Bahan Alami, Tanpa Pengawet, Resep Warisan Tradisional, dan Sertifikasi Halal.
+- **Integrasi Pemesanan WhatsApp Direct:** Klik untuk pesan langsung terhubung ke WhatsApp penjual dengan pesan otomatis yang sudah terformat.
+- **Desain Responsif (Mobile-Friendly):** Tampilan optimal di semua layar (Smartphone, Tablet, Desktop).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Teknologi yang Digunakan
+
+- **React.js:** Library JavaScript untuk membangun antarmuka pengguna berbasis komponen.
+- **Tailwind CSS:** Framework CSS _utility-first_ untuk penataan gaya yang cepat, konsisten, dan responsif.
+- **Vite / Next.js:** Build tool / framework React yang cepat.
+- **Lucide React / Font Awesome:** Ikonografi pendukung UI.
