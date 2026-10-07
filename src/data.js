@@ -1,8 +1,11 @@
 import logo from "./assets/logo.png";
 export default logo;
 
+import imageHero from "./assets/image-hero.jpeg";
+export const imageHome = imageHero;
+
 import bioImage from "./assets/bio.png";
-export const Bio = bioImage;
+export const bio = bioImage;
 
 import lemangPutih from "./assets/lemang-gula-putih.jpg";
 import lemangMerah from "./assets/lemang-gula-merah.jpg";
@@ -55,24 +58,25 @@ export const sosmed = [
     id: 1,
     name: "Gmail",
     href: "mailto:jefriadimudo120@gmail.com?subject=Pemesanan%20Menu&body=Halo,%20saya%20ingin%20memesan...",
-    icon: "ri-mail-line",
   },
   {
     id: 2,
     name: "Facebook",
     href: "https://www.facebook.com/profile.php?id=61593068231483",
-    icon: "ri-facebook-circle-line",
   },
   {
     id: 3,
     name: "Instagram",
     href: "https://www.instagram.com/3dara_magek/",
-    icon: "ri-instagram-line",
   },
   {
     id: 4,
     name: "Maps",
     href: "https://maps.app.goo.gl/tdTgRVQNKyedu3fg6",
-    icon: "fa-solid fa-map-location-dot",
+  },
+  {
+    id: 5,
+    name: "Whatsapp",
+    href: "https://wa.me/6281397011944",
   },
 ];
