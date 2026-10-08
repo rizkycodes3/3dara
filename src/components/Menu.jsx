@@ -1,37 +1,31 @@
-import { useEffect } from "react";
-import { Catalog } from "../data";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import Footer from "./Footer";
+
+import { catalog } from "../data";
+
+import { FaBook } from "react-icons/fa";
 
 const Menu = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-      offset: 200,
-    });
-  }, []);
-
   return (
-    <section className="bg-surface-dim px-5 py-10">
-      <h2 className="text-secondary text-xl font-bold text-center">Hidangan Khas Kami</h2>
-      <ul className="mt-10 flex flex-col items-center gap-20 lg:px-20">
-        {Catalog.map((item) => {
-          return (
-            <li
-              key={item.id}
-              className="bg-surface-low rounded-2xl p-5 grid grid-rows-[2fr,1fr] gap-5 sm:w-2/3 sm:mx-auto lg:grid-cols-[1fr,2fr] lg:w-[90%]"
-              data-aos={item.animated}
-            >
-              <img src={item.image} alt={item.title} className="rounded-2xl lg:row-[1/3] lg:col-[1/2] lg:w-full lg:h-80" />
-              <div className="lg:col-[2/3]">
-                <h3 className="text-surface-tint text-2xl font-playfair font-bold mb-5">{item.title}</h3>
-                <p className="text-tertiary">{item.desc}</p>
+    <section className="bg-secondary">
+      <div className="p-4">
+        <span className="flex items-center gap-1 text-text-secondary tracking-widest">
+          <FaBook /> Daftar Cita Rasa Minang
+        </span>
+        <h1 className="font-Newsreader font-semibold text-3xl mt-2 mb-10">Koleksi Menu 3Dara</h1>
+        <ul className="grid grid-rows-2 gap-10 mb-20 md:grid-cols-2 md:grid-rows-1 lg:grid-cols-3">
+          {catalog.map((item) => (
+            <li key={item.id} className="bg-white">
+              <img src={item.image} alt={item.title} />
+              <div className="p-4 flex flex-col gap-2">
+                <h1 className="font-Newsreader font-semibold text-2xl">{item.title}</h1>
+                <span className="text-xl font-Newsreader font-semibold">Rp {item.price.toLocaleString("id-ID")}</span>
+                <p className="text-base/relaxed">{item.desc}</p>
               </div>
             </li>
-          );
-        })}
-      </ul>
+          ))}
+        </ul>
+      </div>
+      <Footer />
     </section>
   );
 };

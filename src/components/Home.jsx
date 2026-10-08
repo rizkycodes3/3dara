@@ -59,7 +59,7 @@ const Home = () => {
       {/* menu */}
       <section className="bg-primary p-4 pb-20 lg:p-10 lg:pb-40 lg:px-50">
         <div className="flex flex-col gap-1 lg:flex-row lg:justify-between">
-          <h1 className="text-2xl font-Newsreader font-semibold">Varian Menu Kami</h1>
+          <h1 className="text-2xl font-Newsreader font-semibold">Varian Menu Unggulan Kami</h1>
           <Link to="/menu" className="flex gap-1 text-text-secondary text-sm h-fit">
             Lihat Semua Menu <FaArrowRight className="self-center" />
           </Link>
