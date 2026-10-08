@@ -7,8 +7,8 @@ export const imageHome = imageHero;
 import bioImage from "./assets/bio.png";
 export const bio = bioImage;
 
-import lemangPutih from "./assets/lemang-gula-putih.jpg";
-import lemangMerah from "./assets/lemang-gula-merah.jpg";
+import lemangPutih from "./assets/lemang-gula-putih.png";
+import lemangMerah from "./assets/lemang-gula-merah.png";
 export const catalog = [
   {
     id: 1,
@@ -26,29 +26,23 @@ export const catalog = [
   },
 ];
 
-import halal from "./assets/logo-halal.png";
-import cookBook from "./assets/cook-book.png";
-import bpa from "./assets/BPA-free.png";
-export const USPitems = [
+export const upsItems = [
   {
     id: 1,
-    title: "100% Halal untuk Ketenangan Anda",
-    image: halal,
-    desc: "Kami memastikan seluruh produk diolah sesuai standar kehalalan yang ketat, mulai dari pemilihan bahan baku, proses produksi, hingga pengiriman ke lokasi anda. Dengan sertifikasi resmi Halal Indonesia, Anda dapat menikmati setiap sajian tradisional kami dengan rasa aman, nyaman, dan penuh ketenangan.",
+    title: "Beras Ketan Pilihan & Santan Murni",
+    desc: "Kami hanya menggunakan ketan lokal berkualitas tinggi dan perasan pertama santan kelapa segar. Tanpa perasa buatan, menghasilkan gurih alami yang meresap hingga ke serat terdalam",
     animated: "0",
   },
   {
     id: 2,
-    title: "Warisan Cita Rasa yang Teruji Zaman",
-    image: cookBook,
-    desc: "Setiap hidangan kami diolah menggunakan catatan resep rahasia yang diwariskan secara turun-temurun. Kami mempertahankan takaran rempah asli, teknik pengolahan tradisional, dan ketulusan cara masak lama agar Anda dapat menikmati kelezatan yang konsisten, autentik, dan membawa kenangan hangat masakan keluarga.",
+    title: "Pematangan Presisi & Tekstur Lumer",
+    desc: "Melalui proses pematangan yang dijaga ketat suhunya, menciptakan tekstur luluik (lembut/lumer) yang pas tidak lembek, tidak keras, dan meleleh sempurna saat disantap",
     animated: "200",
   },
   {
     id: 3,
-    title: "Aman untuk Kesehatan Keluarga Anda",
-    image: bpa,
-    desc: "Kami peduli pada kesehatan Anda sebagaimana kami peduli pada cita rasa. Seluruh kemasan yang kami gunakan terjamin BPA Free (bebas dari zat kimia Bisphenol A), sehingga makanan tetap higienis, tidak beracun, dan terhindar dari kontaminasi zat berbahaya meskipun disajikan dalam keadaan hangat.",
+    title: "Keseimbangan Rasa Gurih dan Legit",
+    desc: "Formulasi takaran yang presisi menghasilkan perpaduan rasa gurih dan manis legit yang seimbang (balance), membuat setiap suapan terasa lezat tanpa memberikan rasa enek",
     animated: "400",
   },
 ];

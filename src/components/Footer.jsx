@@ -1,21 +1,39 @@
-import Logo, { Sosmed } from "../data";
+import logo, { sosmed } from "../data";
+
+import { IoMailSharp, IoMapSharp } from "react-icons/io5";
+import { IoLogoFacebook } from "react-icons/io";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaSquareWhatsapp } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="bg-footer p-5">
-      <div className="flex items-center gap-1 w-fit mx-auto">
-        <img src={Logo} alt="logo" className="w-7" />
-        <h3 className="text-base text-surface-tint font-semibold">3Dara</h3>
+    <footer className="bg-secondary-dim p-4 flex flex-col gap-5 md:grid md:grid-cols-3 md:grid-rows-[1fr_auto]">
+      <div className="grid grid-cols-[auto_1fr] grid-rows-[auto_1fr]">
+        <img src={logo} className="h-5 mr-2" />
+        <h1 className="font-Newsreader font-semibold text-xl">3DARA</h1>
+        <p className="col-span-full row-[2/3] text-sm/relaxed">
+          Keotentikan rasa Minangkabau dalam sajian lemang luluik bertekstur lembut, diolah dari ketan murni dan kelapa parut alami Minangkabau, Bukittinggi.
+        </p>
       </div>
-      <div className="grid grid-cols-2 grid-rows-2 w-2/3 mx-auto mt-5 justify-items-center gap-5 sm:grid-cols-4 sm:grid-rows-1 lg:w-1/2">
-        {Sosmed.map((item) => {
-          return (
-            <a href={item.href} key={item.id} className="text-surface-tint text-sm">
-              <i className={item.icon}></i> {item.name}
-            </a>
-          );
-        })}
+      <div>
+        <h2 className="font-semibold mb-3">Jam Buka</h2>
+        <p className="text-sm">
+          Setiap Hari: <span className="font-semibold">07.00 - 17.00 WIB</span>
+        </p>
       </div>
+      <div>
+        <h2 className="font-semibold mb-3">Sosial Media</h2>
+        <ul className="grid grid-cols-2 gap-1">
+          {sosmed.map((item, i) => (
+            <li key={item.id}>
+              <a href={item.href} className="flex items-center gap-1 text-sm">
+                {[<IoMailSharp />, <IoLogoFacebook />, <AiFillInstagram />, <IoMapSharp />, <FaSquareWhatsapp />][i]} {item.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <p className="text-center text-sm col-span-full row-[2/3]">&copy; 2026 3DARA. All rights reserved.</p>
     </footer>
   );
 };
