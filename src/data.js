@@ -49,6 +49,29 @@ export const upsItems = [
   },
 ];
 
+export const guarantee = [
+  {
+    id: 1,
+    title: "100% Halal & Alami",
+    desc: "Bebas dari pengawet sintesis, bahan pewarna buatan, perisa tiruan, atau zat pemanis buatan. Hanya ketan, santan, gula murni, dan garam laut.",
+  },
+  {
+    id: 2,
+    title: "Garansi Hangat Sampai Tujuan",
+    desc: "Dikemas langsung saat hangat dan dikirim via kurir kilat untuk memastikan tekstur pulut tetap lembut, kenyal, dan nikmat hingga sampai di tangan Anda.",
+  },
+  {
+    id: 3,
+    title: "Pembersihan Higienis",
+    desc: "Setiap peralatan masak dicuci hingga bersih dengan air mengalir dan dijaga steril sebelum maupun sesudah digunakan, demi menjamin kualitas serta kebersihan hidangan Anda.",
+  },
+  {
+    id: 4,
+    title: "Garansi Ganti Baru / Uang Kembali",
+    desc: "Jika kemasan bocor saat kurir tiba, tercium aroma apek, atau kualitas rasa tidak sesuai standar keotentikan, kami kirimkan paket baru tanpa biaya.",
+  },
+];
+
 export const sosmed = [
   {
     id: 1,

@@ -7,11 +7,10 @@ import { FaBowlRice, FaArrowRight } from "react-icons/fa6";
 import { GiCampCookingPot, GiCook } from "react-icons/gi";
 import { TbTruckDelivery } from "react-icons/tb";
 import { RiDiscountPercentFill } from "react-icons/ri";
-import Footer from "./Footer";
 
 const Home = () => {
   return (
-    <main className="bg-primary font-Jakarta text-text-primary ">
+    <main className="bg-primary font-Jakarta text-text-primary pt-5">
       {/* hero */}
       <section className="min-h-[90vh] flex flex-col gap-10 lg:flex-row p-4 lg:p-10">
         <div>
@@ -86,8 +85,6 @@ const Home = () => {
           <p className="mb-5 mt-1 text-base/relaxed">Sebagai bentuk apresiasi, kami menghadirkan diskon spesial 10% hingga 20% khusus untuk pelanggan setia kami.</p>
         </div>
       </section>
-
-      <Footer />
     </main>
   );
 };
